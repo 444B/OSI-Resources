@@ -1,13 +1,15 @@
- 
-| Layer           | Means           | PDU                 | Role       |
-| :-------------: | :-------------: | :-----------------: | :--------: | 
-| 7 - Application |                 | Data                |            | 
-| 6-Presentation  |                 | Data                |            |  
-| 5 - Session     |                 | Data                |            |  
-| 4 - Transport   |                 | Segments            |            |  
-| 3 - Network     |                 | Packets             |            |  
-| 2 - Data Link   |                 | Frames              |            |  
-| 1 - Physical    |                 | Bits or Data Stream |            | 
+#OSI Tables 
+
+
+| Layer            | Means                                            | PDU                 | Role             |
+| :--------------: | :----------------------------------------------: | :-----------------: | :--------------: | 
+| 7 - Application  | API's, Network Services                          | Data                | Scribe           | 
+| 6 - Presentation | Reformats, Encrypts/Decrypt, Compress/Decompress | Data                | Translator       |  
+| 5 - Session      | Establishes, Manages and Ends Sessions           | Data                | Negotiator       |  
+| 4 - Transport    | Segment ID / Assembler                           | Segments            | Middle Manager   |  
+| 3 - Network      | IP addressing / Routing                          | Packets             | Mail Room Guy    |  
+| 2 - Data Link    | Organizes Bits into Frames                       | Frames              | Envelope Stuffer |  
+| 1 - Physical     | Movement of Bits                                 | Bits or Data Stream | The Truck        | 
  
  
  
@@ -16,86 +18,86 @@
 Layer: 7 - Application
 | Name            | Protocol        | RFC        | Resource   |
 | :-------------: | :-------------: | :--------: | :--------: | 
-|                 |                 |            |            | 
-|                 |                 |            |            | 
-|                 |                 |            |            | 
-|                 |                 |            |            | 
-|                 |                 |            |            | 
-|                 |                 |            |            | 
-|                 |                 |            |            | 
-|                 |                 |            |            | 
-|                 |                 |            |            | 
-|                 |                 |            |            | 
-|                 |                 |            |            | 
-|                 |                 |            |            | 
-|                 |                 |            |            | 
-|                 |                 |            |            | 
-|                 |                 |            |            |
+| HTTP            |                 |            |            | 
+| HTTPS/SSL/TLS   |                 |            |            | 
+| NNTP                |                 |            |            | 
+| FTP                |                 |            |            | 
+| Telnet                |                 |            |            | 
+| SSH                |                 |            |            | 
+| POP3                |                 |            |            | 
+| IMAP4                |                 |            |            | 
+| SMTP                |                 |            |            | 
+| DNS                |                 |            |            | 
+| TFTP                |                 |            |            | 
+| DHCP                |                 |            |            | 
+| BootP                |                 |            |            | 
+| SNMP                |                 |            |            | 
+| NTP                |                 |            |            |
+| Syslog                |                 |            |            |
 
 
  
-Layer:
+Layer: 6 - Presentation
 | Name            | Protocol        | RFC        | Resource   |
 | :-------------: | :-------------: | :--------: | :--------: | 
-|                 |                 |            |            | 
-|                 |                 |            |            | 
-|                 |                 |            |            | 
-|                 |                 |            |            | 
-|                 |                 |            |            | 
-|                 |                 |            |            |
+| JPEG            |                 |            |            | 
+| MIDI            |                 |            |            | 
+| MPEG            |                 |            |            | 
+| PICT            |                 |            |            | 
+| TIFF            |                 |            |            | 
+| ASCII           |                 |            |            |
  
-Layer:
+Layer: 5 - Session
 | Name            | Protocol        | RFC        | Resource   |
 | :-------------: | :-------------: | :--------: | :--------: |
-|                 |                 |            |            | 
-|                 |                 |            |            | 
-|                 |                 |            |            | 
-|                 |                 |            |            | 
-|                 |                 |            |            | 
-|                 |                 |            |            |
+| NetBIOS |                 |            |            | 
+| NFS |                 |            |            | 
+| PAP |                 |            |            | 
+| SCP |                 |            |            | 
+| SQL |                 |            |            | 
+| ZIP |                 |            |            |
  
  
-Layer:
+Layer: 4 - Transport
 | Name            | Protocol        | RFC        | Resource   |
 | :-------------: | :-------------: | :--------: | :--------: |
-|                 |                 |            |            | 
-|                 |                 |            |            |
+| TCP |                 |            |            | 
+| UDP |                 |            |            |
  
  
-Layer:
+Layer: 3 - Network
 | Name            | Protocol        | RFC        | Resource   |
 | :-------------: | :-------------: | :--------: | :--------: |
-|                 |                 |            |            | 
-|                 |                 |            |            | 
-|                 |                 |            |            | 
-|                 |                 |            |            | 
-|                 |                 |            |            | 
-|                 |                 |            |            | 
-|                 |                 |            |            |
+| ICMP |                 |            |            | 
+| IGMP |                 |            |            | 
+| IPseC |                 |            |            | 
+| IPv4 |                 |            |            | 
+| IPv6 |                 |            |            | 
+| IPX |                 |            |            | 
+| RIP |                 |            |            |
  
  
-Layer:
+Layer: 2 - Data Link
 | Name            | Protocol        | RFC        | Resource   |
 | :-------------: | :-------------: | :--------: | :--------: |
-|                 |                 |            |            | 
-|                 |                 |            |            | 
-|                 |                 |            |            | 
-|                 |                 |            |            | 
-|                 |                 |            |            | 
-|                 |                 |            |            | 
-|                 |                 |            |            | 
-|                 |                 |            |            | 
-|                 |                 |            |            | 
-|                 |                 |            |            |
+| ARP |                 |            |            | 
+| ATM |                 |            |            | 
+| CDP |                 |            |            |
+| FDDI |                 |            |            | 
+| Frame Relay |                 |            |            | 
+| HDLC |                 |            |            | 
+| MPLS |                 |            |            | 
+| PPP |                 |            |            | 
+| STP |                 |            |            | 
+| Token Ring |                 |            |            |
  
  
-Layer:
+Layer: 1 - Physical
 | Name            | Protocol        | RFC        | Resource   |
 | :-------------: | :-------------: | :--------: | :--------: |
-|                 |                 |            |            | 
-|                 |                 |            |            | 
-|                 |                 |            |            | 
-|                 |                 |            |            | 
-|                 |                 |            |            | 
-|                 |                 |            |            |
-
+| Bluetooth       |                 |            |            | 
+| Ethernet        |                 |            |            | 
+| DSP             |                 |            |            | 
+| ISDN            |                 |            |            | 
+| WIFI            |                 |            |            | 
+|  |                 |            |            |
