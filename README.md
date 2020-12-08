@@ -30,21 +30,21 @@ The following tables and images are to provide a collection of linked resources 
 | [SSH](https://en.wikipedia.org/wiki/SSH_(Secure_Shell))               | 22         | [4251 - Transport layer](https://tools.ietf.org/html/rfc4251), [4252 - User Authentication layer](https://tools.ietf.org/html/rfc4252), [4254 - Connection Layer ](https://tools.ietf.org/html/rfc4254)      | []()       |
 |  [POP3](https://en.wikipedia.org/wiki/Post_Office_Protocol)           |   110       | [1939](https://tools.ietf.org/html/rfc1939), [2449 - Extention](https://tools.ietf.org/html/rfc2449), [1734 - Authentication](https://tools.ietf.org/html/rfc1734)       | []()       
 | [IMAP4](https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol)           |      143    | []()       | []()       |
-|   [SMTP]()          |      25    | []()       | []()       |
-|  [DNS]()            | 53         | []()       | []()       |
-|  [TFTP]()           |   69       | []()       | []()       | 
-|  [DHCP]()           |     67, 68     | []()       | []()       |
-|  [SNMP]()           |  162, 161    | []()       | []()       |
-|  [NTP]()          |   123       | []()       | []()       |
-|  [Syslog]()         |    514      | []()       | []()       |
+|   [SMTP](https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol)          |      25    | [5321](https://tools.ietf.org/html/rfc5321)       | []()       |
+|  [DNS](https://en.wikipedia.org/wiki/Domain_Name_System)            | 53         | [Too many to list, follow link to wikipedia](https://en.wikipedia.org/wiki/Domain_Name_System#RFC_documents)       | []()       |
+|  [TFTP](https://en.wikipedia.org/wiki/Trivial_File_Transfer_Protocol)           |   69       | [1350](https://tools.ietf.org/html/rfc1350)       | []()       | 
+|  [DHCP](https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol)           |     67, 68     | [2131](https://tools.ietf.org/html/rfc2131), [Multiple on wikipedia](https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol#IETF_standards_documents)       | []()       |
+|  [SNMP](https://en.wikipedia.org/wiki/Simple_Network_Management_Protocol)           |  162, 161    | [6353](https://tools.ietf.org/html/rfc6353)       | [5905](https://tools.ietf.org/html/rfc5905)       |
+|  [NTP](https://en.wikipedia.org/wiki/Network_Time_Protocol), [Read Wiki history](https://en.wikipedia.org/wiki/Network_Time_Protocol#History)          |   123       | []()       | []()       |
+|  [Syslog](https://en.wikipedia.org/wiki/Syslog)         |    514      | [5424](https://tools.ietf.org/html/rfc5424)       | []()       |
 
 
  
 #### Layer: 6 - Presentation
-| Name                                                                  | Port       | RFC                                             | Resource     |
+| Name                                                                  | Protocol       | Standard                                        | Resource     |
 | :-------------------------------------------------------------------: | :--------: | :---------------------------------------------: | :----------: | 
-|  [JPEG]()           | []()            | []()       | []()       | 
-|   [MIDI]()          | []()            | []()       | []()       |
+|  [JPEG](https://en.wikipedia.org/wiki/JPEG)           | []()            | []()       | []()       | 
+|   [MIDI](https://en.wikipedia.org/wiki/MIDI)          | [Midi Protocol](https://www.midi.org/specifications/midi-2-0-specifications/ump-protocol-specifications)            | []()       | []()       |
 |  [MPEG]()           | []()            | []()       | []()       |
 |  [PICT]()           | []()            | []()       | []()       |
 |  [TIFF]()           | []()            | []()       | []()       | 
