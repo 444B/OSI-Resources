@@ -1,18 +1,106 @@
-
-
-| Layer           | Name            | Protocol        | RFC        | PDU        | Means      | Role       |
-| :-------------: | :-------------: | :-------------: | :--------: | :--------: | :--------: | :--------: |
-| Row 1 Column 1  | HTTP            | Row 1 Column 3  |            |            |            |            |
-| Row 1 Column 1  | HTTP            | Row 1 Column 3  |            |            |            |            |
-| Row 1 Column 1  | HTTP            | Row 1 Column 3  |            |            |            |            |
-
-
-| Layer           | Name            | Protocol        | RFC        | PDU        | Means      | Role       |
-| :-------------: | :-------------: | :-------------: | :--------: | :--------: | :--------: | :--------: |
-| Row 1 Column 1  | HTTP            | Row 1 Column 3  |            |            |            |            |
-| Row 1 Column 1  | HTTP            | Row 1 Column 3  |            |            |            |            |
-| Row 1 Column 1  | HTTP            | Row 1 Column 3  |            |            |            |            |
  
+| Layer           | Means           | PDU                 | Role       |
+| :-------------: | :-------------: | :-----------------: | :--------: | 
+| 7 - Application |                 | Data                |            | 
+| 6-Presentation  |                 | Data                |            |  
+| 5 - Session     |                 | Data                |            |  
+| 4 - Transport   |                 | Segments            |            |  
+| 3 - Network     |                 | Packets             |            |  
+| 2 - Data Link   |                 | Frames              |            |  
+| 1 - Physical    |                 | Bits or Data Stream |            | 
+ 
+ 
+ 
+ 
+ 
+Layer: 7 - Application
+| Name            | Protocol        | RFC        | Resource   |
+| :-------------: | :-------------: | :--------: | :--------: | 
+|                 |                 |            |            | 
+|                 |                 |            |            | 
+|                 |                 |            |            | 
+|                 |                 |            |            | 
+|                 |                 |            |            | 
+|                 |                 |            |            | 
+|                 |                 |            |            | 
+|                 |                 |            |            | 
+|                 |                 |            |            | 
+|                 |                 |            |            | 
+|                 |                 |            |            | 
+|                 |                 |            |            | 
+|                 |                 |            |            | 
+|                 |                 |            |            | 
+|                 |                 |            |            |
 
 
+ 
+Layer:
+| Name            | Protocol        | RFC        | Resource   |
+| :-------------: | :-------------: | :--------: | :--------: | 
+ 
+|                 |                 |            |            | 
+|                 |                 |            |            | 
+|                 |                 |            |            | 
+|                 |                 |            |            | 
+|                 |                 |            |            | 
+|                 |                 |            |            |
+ 
+Layer:
+| Name            | Protocol        | RFC        | Resource   |
+| :-------------: | :-------------: | :--------: | :--------: |
+ 
+|                 |                 |            |            | 
+|                 |                 |            |            | 
+|                 |                 |            |            | 
+|                 |                 |            |            | 
+|                 |                 |            |            | 
+|                 |                 |            |            |
+ 
+ 
+Layer:
+| Name            | Protocol        | RFC        | Resource   |
+| :-------------: | :-------------: | :--------: | :--------: |
+|                 |                 |            |            | 
+|                 |                 |            |            |
+ 
+ 
+Layer:
+| Name            | Protocol        | RFC        | Resource   |
+| :-------------: | :-------------: | :--------: | :--------: |
+ 
+|                 |                 |            |            | 
+|                 |                 |            |            | 
+|                 |                 |            |            | 
+|                 |                 |            |            | 
+|                 |                 |            |            | 
+|                 |                 |            |            | 
+|                 |                 |            |            |
+ 
+ 
+Layer:
+| Name            | Protocol        | RFC        | Resource   |
+| :-------------: | :-------------: | :--------: | :--------: |
+ 
+|                 |                 |            |            | 
+|                 |                 |            |            | 
+|                 |                 |            |            | 
+|                 |                 |            |            | 
+|                 |                 |            |            | 
+|                 |                 |            |            | 
+|                 |                 |            |            | 
+|                 |                 |            |            | 
+|                 |                 |            |            | 
+|                 |                 |            |            |
+ 
+ 
+Layer:
+| Name            | Protocol        | RFC        | Resource   |
+| :-------------: | :-------------: | :--------: | :--------: |
+ 
+|                 |                 |            |            | 
+|                 |                 |            |            | 
+|                 |                 |            |            | 
+|                 |                 |            |            | 
+|                 |                 |            |            | 
+|                 |                 |            |            |
 
