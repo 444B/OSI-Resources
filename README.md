@@ -1,19 +1,19 @@
 # OSI Tables 
 
 ### Intro and explanation
+The following tables and images are to provide a collection of linked resources for studying. The goal is to understand computers and communication protocols via the [OSI model](https://en.wikipedia.org/wiki/OSI_model) and its [Protocols](https://en.wikipedia.org/wiki/OSI_protocols)
 
 
-
-#### General Overview of OSI Model
-| Layer            | Means                                            | PDU                 | Role             |
+#### General Overview of the OSI model
+| Layer            | Means                                            | [PDU](https://en.wikipedia.org/wiki/Protocol_data_unit)        | Role             |
 | :--------------: | :----------------------------------------------: | :---------------------------------------------: | :--------------: | 
 | 7 - Application  | API's, Network Services                          | Data                | Scribe           | 
 | 6 - Presentation | Reformats, Encrypts/Decrypt, Compress/Decompress | Data     | Translator       |  
 | 5 - Session      | Establishes, Manages and Ends Sessions           | Data      | Negotiator       |  
-| 4 - Transport    | Segment ID / Assembler                           | Segments   | Middle Manager   |  
-| 3 - Network      | IP addressing / Routing                          | Packets  | Mail Room Guy    |  
+| 4 - Transport    | Segment ID / Assembler                           | [Segments](https://en.wikipedia.org/wiki/Packet_segment)   | Middle Manager   |  
+| 3 - Network      | IP addressing / Routing                          | [Packets](https://en.wikipedia.org/wiki/Network_packet)  | Mail Room Guy    |  
 | 2 - Data Link    | Organizes Bits into Frames                       | [Frames](https://en.wikipedia.org/wiki/Frame_%28networking%29)   | Envelope Stuffer |  
-| 1 - Physical     | Movement of Bits                                 | Bits or Data Stream | The Truck        | 
+| 1 - Physical     | Movement of Bits                                 | [Bits](https://en.wikipedia.org/wiki/Bit) | The Truck        | 
  
  
  []()
